@@ -9,6 +9,7 @@ polinomial de grado `n`.
 
 
 def pregunta_01():
+    "a ver si sí se puede editar sin más"
     """
     Complete el código presentado a continuación.
     """
