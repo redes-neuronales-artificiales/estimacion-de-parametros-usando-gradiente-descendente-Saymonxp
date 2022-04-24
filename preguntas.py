@@ -47,7 +47,7 @@ def pregunta_02():
     for epoch in range(n_iterations):
 
         # Compute el pronóstico con los parámetros actuales
-        y_pred = np.polyval(y, x_poly)
+        y_pred = np.matmul(x_poly, params)
 
         # Calcule el error
         error = y_pred - y
